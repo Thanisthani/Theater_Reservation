@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="boo.png">
+    <meta charset="utf-8>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+  .dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: ;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: ;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.checked {
+  color: orange;
+}
+.buttonw{
+  width:50%;
+}
+
+</style>
+
+  </head>
+  <body  style="background-color:#8D7B77" >
+    <div style="background-image:url('1280.jfif')">
+    <nav class="navbar navbar-default" style="background-color:#001a33;">
+    <div class="container-fluid">
+    <ul class="nav navbar-nav">
+     <li class="active"class="bg-primary"><a style="background-color:#b30000;" href="index.html"><h4 style="color:white";><b>C</b>ine <b>B</b>ooks</h4></a></li>
+     <li><a href="index.html"><h4>Home</h4></a></li>
+     <li><a href="movies.html"><h4>Movies</h4></a></li>
+     <li><a href="offers.html"><h4>Offers</h4></a></li>
+     <div class="dropdown">
+    <button class="dropbtn">Show Times
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">6.30AM</a>
+      <a href="#">10.30AM</a>
+      <a href="#">1.30PM</a>
+      <a href="#">4.30PM</a>
+      <a href="#">7.30PM</a>
+    </div>
+    </div>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+          <li class="active"class="bg-primary"><a style="background-color:#001a33;" href="booking.html"><b>Buy Movie Tickets</b></a></li>
+    </ul>
+    </div>
+    </nav>
+    <Center>
+  <div class="ng-scope">
+  <div class="container">
+    <div class="panel panel-default">
+
+      <div class="panel-body" style="background-color: #e6e6e6">
+          <div class="media">
+            <h2><b><a href="booking.html">KAITHI</a></b></h2>
+        <div class="pull-center" >
+          <img class="img-rounded " src="kaithi2.jpg" alt="Bigil Mvie" width="304" height="236 align="center"><br><a href="booking.html">
+            <br>
+            <div class="text-center" ng-show="!currentUser">
+                <a class="btn btn-block btn-primary" href="booking.html" class="buttonw">Buy Movie Tickets</a>
+              </div>
+      </div>
+
+
+      </div>
+    </div>
+
+
+    <div class="media-body">
+
+        <h2 class="media-heading ng-binding" align="center">
+                <span class="pull-center text-danger ng-binding"><strong> Rating 9.7</strong></span>
+        </h2>
+        <nav class="navbar navbar-default">
+          <div class="col-sm-4 feature">
+            <center>  <div class="container-fluid">
+              <a href="booking.html">EROS Cinema</a><br><br>
+               <a button type="button" class="btn" href="booking.html">06:30AM</a>
+               <a button type="button" class="btn" href="booking.html">02:30PM</a>
+               <a button type="button" class="btn" href="booking.html">07:30PM</a>
+              </div></center>
+           </div>
+           <div class="col-sm-4 feature">
+             <center>
+               <div class="container-fluid">
+                 <a href="booking.html">Empire Delux</a><br><br>
+                 <a button type="button" class="btn" href="booking.html">06:30AM</a>
+                 <a button type="button" class="btn" href="booking.html">10:30AM</a>
+                 <a button type="button" class="btn" href="booking.html">02:30PM</a><br><br>
+                 <a button type="button" class="btn" href="booking.html">07:30PM</a>
+                 <a button type="button" class="btn" href="booking.html">07:30PM</a><a button type="button" class="btn" href="booking.html">10:30PM</a>
+               </div>
+             </center>
+         </div>
+            <div class="col-sm-4 feature">
+                  <center>
+                    <div class="container-fluid">
+                    <a href="booking.html">Liberty Cinema</a><br><br>
+                    <a button type="button" class="btn" href="booking.html">06:30AM</a>
+                    <a button type="button" class="btn" href="booking.html">02:30PM</a>
+                    <a button type="button" class="btn" href="booking.html">07:30PM</a>
+                    </div>
+                  </center>
+
+             </div>
+        </nav>
+        <nav class="navbar navbar-default">
+          <div class="col-sm-4 feature">
+            <center>
+              <div class="container-fluid">
+              <a href="booking.html">SAVOY 02 Cinema</a><br><br>
+              <a button type="button" class="btn" href="booking.html">06:30AM</a>
+              <a button type="button" class="btn" href="booking.html">02:30PM</a>
+              <a button type="button" class="btn" href="booking.html">10:30PM</a>
+              </div></center>
+           </div>
+           <div class="col-sm-4 feature">
+             <center>
+               <div class="container-fluid">
+                 <a href="booking.html">Majestic Cinema</a><br><br>
+               <a button type="button" class="btn" href="booking.html">06:30AM</a>
+               <a button type="button" class="btn" href="booking.html">02:30PM</a>
+               <a button type="button" class="btn" href="booking.html">07:30PM</a>
+               </div>
+             </center>
+         </div>
+            <div class="col-sm-4 feature">
+                  <center>
+                    <div class="container-fluid">
+                    <a href="booking.html">Majestic Cineplex</a><br><br>
+                    <a button type="button" class="btn" href="booking.html">06:30AM</a>
+                    <a button type="button" class="btn" href="booking.html">10:30AM</a>
+                    <a button type="button" class="btn" href="booking.html">02:30PM</a><br><br>
+                    <a button type="button" class="btn" href="booking.html">07:30PM</a>
+                    </div>
+                  </center>
+
+             </div>
+        </nav>
+        </center>
+        </nav>
+
+      </div>
+      </div>
+      </div>
+  </div>
+</div>
+</div>
+
+
+<!--footer-->
+    <nav class="navbar navbar-default" style="background-color:#262626;">
+      <div class="col-sm-4 feature" style="color:  #595959";>
+        <center><h3>Head Office</h3>
+        <p>No123, Sabragamuwa,<br>
+          Sri Lanka.
+        </p></center>
+       </div>
+       <div class="col-sm-4 feature" style="color:  #595959";>
+         <center><h3>E-Mail</h3>
+         <a href="index.html"><p>info@cinebooks.com</p></a>
+         <div class="footer-copyright text-center py-3">© 2019 Copyright:
+  <a href="#">cinebooks.com</a></center>
+</div>
+        </div>
+        <div class="col-sm-4 feature" style="color:  #595959";>
+              <center><h3>Office</h3>
+              <p>077-3736352<br>
+                025-1234567
+              </p></center>
+
+         </div>
+    </nav>
+  </div>
+  </body>
+  </html>
